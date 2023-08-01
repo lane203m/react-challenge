@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { NavbarInnerWrapper, NavbarLogoWrapper, NavbarProfilePill, NavbarProfileWrapper, NavbarWrapper } from './styles/Navbar';
 import { useTheme } from 'styled-components';
 import { useHistory } from 'react-router';

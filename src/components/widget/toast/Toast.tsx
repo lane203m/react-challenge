@@ -1,4 +1,5 @@
-import React, { useCallback } from 'react';
+import React from 'react';
+import { useCallback } from 'react';
 import { ToastWrapper } from './styles/Toast';
 import { toast } from 'react-toastify';
 import { useTheme } from 'styled-components';

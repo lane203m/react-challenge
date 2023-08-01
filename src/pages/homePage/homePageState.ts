@@ -2,15 +2,11 @@ import {
   Dispatch,
   ReducerAction,
   useCallback,
-  useEffect,
   useMemo,
   useReducer,
-  useState,
 } from 'react';
 
-
 import { ReducerActionType } from 'pages/reducerActionType';
-import useGetAccountQuery from 'graphql/generated/queries/getAccountQuery';
 
 export const ACTIONS = {
   SWITCH_TAB: 'SWITCH_TAB' as 'SWITCH_TAB',

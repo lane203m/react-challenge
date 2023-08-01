@@ -1,7 +1,6 @@
 
 import styled from 'styled-components';
 import breakpoint from 'styled-components-breakpoint';
-import { optional } from 'utils/styledComponents';
 
 export const HomePageWrapper = styled.div`
   flex: 1;
@@ -22,7 +21,6 @@ export const HomePageTabWrapper = styled.div<{
   align-items: center;
   background: ${({theme}) => theme.colours.white};
   border-radius: 10px;
-  min-height: 60%;
 
   ${breakpoint('mobile')`
     width: 100%;

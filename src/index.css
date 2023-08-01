@@ -1,3 +1,7 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 html {
   /* Load system fonts */
   font-family: Inter, -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI,

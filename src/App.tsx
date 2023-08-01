@@ -1,11 +1,11 @@
-import React, { useEffect, useMemo } from 'react';
+import React from 'react';
+import { useMemo } from 'react';
 
-import { History, Location } from 'history';
 import Modal from 'react-modal';
 
 import { ToastContainer } from 'react-toastify';
 
-import { Redirect, Route, Switch, useHistory, useLocation } from 'react-router-dom';
+import { Route, Switch, useHistory, useLocation } from 'react-router-dom';
 import {
   HOME_PAGE_ROUTE,
 } from './Routes';
@@ -14,7 +14,13 @@ import { useTheme } from 'styled-components';
 import { useWindowSize } from 'utils/windowSize/useWindowSize';
 import  HomePage from 'pages/homePage/HomePage';
 
+import { IconPack, library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
 Modal.setAppElement('#root');
+
+library.add(fas as IconPack, fab as IconPack);
 
 const App = () => {
   const history = useHistory();

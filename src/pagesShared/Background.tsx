@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { PageBackgroundWrapper } from './styles/Background';
 import { PageWrapper } from './styles/Wrappers';
 import Spacer from 'components/position/Spacer';
